@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/SatyamSatyarthi007/DevOps.git'
+                git branch: 'main', url: 'https://github.com/Naveen-12361/Two-Tier-Web-App.git'
             }
         }
         stage('Build') {
